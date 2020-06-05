@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>contact_us</title>
+    <style>
+        fieldset{
+            padding-top: 30px;
+    margin-left: 22%;
+    margin-right: 20%;
+    height: 200px;
+        }
+        #ptag{
+            padding-left: 22%;
+        }
+        
+        textarea{
+            height: 40px;
+            margin-left: 58px;
+            margin-top: -15px;
+        }
+        #submit{
+            background-color: blue;
+            border-radius: 5px;
+            color: whitesmoke;
+            width:80px;
+        height: 30px;
+        }
+    </style>
+      <link rel="stylesheet" href="Contact.css">
+      <script src="Thankyou.js"></script>
+</head>
+<body>
+    <header id="header">
+        <h1 id="fontsize">Wanderlust. A desire to travel, to understand one's very existence</h1>
+    </header>
+    <div id="backgroungImage">
+    <nav id="nav">
+        <div id="padding">
+        <h1 class="inline"><a href="project2.html" class="inline">HOME</a></h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!--<h1 class="inline"><a href="" class="inline" id="datalista">ARTICLES</ahref=""></h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+        <h1 class="inline"><a href="Gallery.html" class="inline">GALLERY</a></h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <!-- <h1 class="inline"><a href="" class="inline">ABOUT</a></h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+        <h1 class="inline"><a href="contact_us.html" class="inline">CONTACT US</a></h1>
+    </div>
+    </nav>
+    <section id="section">
+        <div id="sectiondiv">
+        <br><br>
+        <a href="aurangabad.html" class="textdecoration" title="Visit for its mesmerizing ‘Ajanta &amp; Ellora’ caves"><button id="aurangabadanchor"><h3>Aurangabad</h3></button></a><br><br>
+        <a href="Leh-Ladakh.html" class="textdecoration" title="Visit for its unmatched trekking options"><button id="lehladakhanchor"><h3>Leh-Ladakh</h3></button></a><br><br>
+        <a href="Meghalaya.html" class="textdecoration" title="Visit for its spell binding man-made artistic splendours."><button id="meghalayaanchor"><h3>Meghalaya</h3></button></a><br><br>
+        <a href="Mount_Kailash.html" class="textdecoration" title="Visit for its spiritual essence"><button id="mountkailashanchor"><h3>Mount Kailash</h3></button></a>
+        
+        </div>
+        </section>
+        <aside id="aside">
+            <center><h1>Contact Us</h1></center>
+   
+   
+            <p id="ptag">This page was created by T Karthik</p>
+            <center><p>for any further quries please contact
+            9164692064 (or) venkat.karthik66@gmail.com</p></center>
+            <fieldset>
+                <legend>Leave us a message</legend>
+           <form action="Thankyou.html">
+               First Name :
+               <input id="firstName"type="text" required>&nbsp;
+               Last Name :
+               <input id="lastName" type="text" required><br><br>
+              <label for="country">country :</label>
+            
+               <select id="country" name="" required style="width: 200px;">
+                   <option value=""></option>
+                   <option value="India">India</option>    
+                   <option value="USA">USA</option>
+                   <option value="Europe">Europe</option>  
+               </select><br><br>
+               <span>Subject:</span><br>
+             <textarea id="Subject" type="text" placeholder="write something..."></textarea>
+             <center> <input id="submit" type="submit"  value="Submit" onclick="save(firstName.value,lastName.value,country.value,Subject.value)"></center> 
+           </form>
+        </fieldset>
+</aside>
+<footer id="footer">
+    <div id="footerdiv">
+    <p>Copyright ©2019 ABC FOR TECHNOLOGY TRAINING All rights reversed</p></div></footer>
+</div>
+</body>
+</html>

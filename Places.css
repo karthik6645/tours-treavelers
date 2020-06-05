@@ -1,0 +1,55 @@
+#header{
+    margin-top: -11px;
+    background-image: url(beautiful-curvy-road-in-austrian-nature-1080x720.jpg);
+    background-size: cover;
+   
+ height: 100px;
+ width: 100%;
+}
+#fontsize{
+  color:black;
+    /*animation: New1 5s infinite;*/
+    font-size: 40px;
+    text-align: center; 
+}
+#nav{  
+    background-image: url(mountain690104.jpg);
+    background-size: cover;
+   
+height: 50px;
+ width: 100%;
+}
+#padding{
+    padding-top: 12px;
+   text-align: center;    
+}
+.inline{
+    display: inline;
+    text-decoration: none;
+}
+.textdecoration{
+    text-decoration: none;
+}
+a:link{
+color: magenta;
+}
+a:visited{
+    color: darkorange;
+}
+a:hover{
+    color: red;
+}
+#footer{
+    margin-top: -16px;
+    background-image: url(mountain690104.jpg);
+    background-size: cover ;
+   
+    height: 53px;
+    width: 100%;
+}
+#footerdiv{
+    color: chartreuse;
+    padding-top: 5px;
+    padding-right: 10px;
+    text-align: right;
+}

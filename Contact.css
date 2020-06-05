@@ -1,0 +1,168 @@
+#header{
+    margin-top: -11px;
+    background-image: url(beautiful-curvy-road-in-austrian-nature-1080x720.jpg);
+    background-size: cover;
+   
+ height: 100px;
+ width: 100%;
+}
+#fontsize{
+  color:black;
+    /*animation: New1 5s infinite;*/
+    font-size: 40px;
+    text-align: center; 
+}
+#nav{  
+    background-image: url(mountain690104.jpg);
+    background-size: cover;
+   
+height: 50px;
+ width: 100%;
+}
+#padding{
+    padding-top: 12px;
+   text-align: center;    
+}
+.inline{
+    display: inline;
+    text-decoration: none;
+}
+#section{
+    
+    background-image: url(pexels-photo.jpg);
+    background-size: cover;
+
+    height: 430px;
+ width: 20%;
+}
+#sectiondiv{
+   text-align: center;
+}
+#aside{ 
+    background-image: url(mountain690104.jpg);
+   background-size: cover;
+   color: limegreen;
+   font-size: large;
+    height: 430px;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: -453px;
+}
+.textdecoration{
+    text-decoration: none;
+}
+a:link{
+    color: darkorange;
+}
+a:visited{
+    color: magenta;
+}
+a:hover{
+    color: red;
+}
+#footer{
+    margin-top: -16px;
+    background-image: url(mountain690104.jpg);
+    background-size: cover ;
+   
+    height: 53px;
+    width: 100%;
+}
+#footerdiv{
+    color: chartreuse;
+    padding-top: 5px;
+    padding-right: 10px;
+    text-align: right;
+}
+#aurangabadanchor{
+    width: 180px;
+    height: 50px;
+  background-color: transparent;
+    color:darkorange;
+}
+#aurangabadanchor:hover{
+    transform: rotate(360deg);
+    color: red;
+transition-duration: 5s;
+background-image: url(inbuttonau.jpg);
+background-size: cover;
+margin-left: 100px;
+width: 200px;
+height: 200px;
+background-repeat: no-repeat;
+}
+#aurangabadanchor:visited{
+    width: 180px;
+    height: 50px;
+  background-color: transparent;
+    color:darkorange;
+}
+#lehladakhanchor{
+    width: 180px;
+    height: 50px;
+  background-color: transparent;
+    color: darkorange;
+}
+#lehladakhanchor:hover{
+    transform: rotate(360deg);
+    color: red;
+transition-duration: 5s;
+background-image: url(inbuttonle.jpg);
+background-size: cover;
+margin-left: 100px;
+width: 200px;
+height: 200px;
+background-repeat: no-repeat;
+}
+#lehladakhanchor:visited{
+    width: 180px;
+    height: 50px;
+  background-color: transparent;
+    color:darkorange;
+}
+#meghalayaanchor{
+    width: 180px;
+    height: 50px;
+  background-color: transparent;
+    color: darkorange;
+}
+#meghalayaanchor:hover{
+    color: red;
+    transform: rotate(360deg);
+transition-duration: 5s;
+background-image: url(Nohkalikai-Falls-at-Cherapunji-Meghalaya.jpg);
+background-size: cover;
+margin-left: 100px;
+width: 200px;
+height: 200px;
+background-repeat: no-repeat;
+}
+#meghalayaanchor:visited{
+    width: 180px;
+    height: 50px;
+  background-color: transparent;
+    color: darkorange;
+}
+#mountkailashanchor{
+    width: 180px;
+    height: 50px;
+  background-color: transparent;
+    color:darkorange;
+}
+#mountkailashanchor:hover{
+    color: red;
+    transform: rotate(360deg);
+transition-duration: 5s;
+background-image: url(Mount-Kailash.jpg);
+background-size: cover;
+margin-left: 100px;
+width: 200px;
+height: 200px;
+background-repeat: no-repeat;
+}
+#mountkailashanchor:visited{
+    width: 180px;
+    height: 50px;
+  background-color: transparent;
+    color:magenta;
+}
